@@ -64,7 +64,7 @@ GPIO: D9
 
 1) Configure Twitter app, follow [this instructions](https://github.com/alex5imon/linkit-examples/wiki/Tweet-from-LinkIt-Smart-Duo)  
 2) Upload the sketch `Tweet.ino` to the board  
-3) Update the Twitter variables in `tweet.py` 
+3) Update the Twitter variables in `tweet.py`  
 4) `scp tweet.py root@mylinkit.local:~`  
 5) `python tweet.py`  
 
