@@ -3,6 +3,8 @@ Examples created for the LinkIt duo 7688
 
 ## Tutorials 
 
+New? Learn how to you LinkIt Smart Duo [here](https://github.com/alex5imon/linkit-examples/wiki/First-steps)  
+
 ### Blink WiFi
 
 Make the WiFi LED blink once per second  
@@ -22,8 +24,8 @@ Demonstrates how to send information from Arduino to MIPS
 
 Make LED D13 on the board blink using Python + Arduino sketch  
 
-GPIO: D13 (Optional)
-Board
+GPIO: D13 (Optional)  
+[TODO] Upload Board design  
 
 1) Upload the sketch `Blink_D13.ino` to the board  
 2) `scp blink_LEDs.py root@mylinkit.local:~`  
@@ -35,8 +37,8 @@ NOTE: you can also connect a LED to Pin D13 to see it blinking
 
 Make LEDs blink using Python + Arduino sketch  
 
-GPIO: D12, D11, D10
-Board
+GPIO: D12, D11, D10  
+[TODO] Upload Board design  
 
 1) Upload the sketch `Blink_LEDs.ino` to the board  
 2) `scp blink_LEDs.py root@mylinkit.local:~`  
@@ -46,8 +48,8 @@ Board
 
 Turn LEDs on/off by pushing a button
 
-GPIO: D12, D11, D10, D9
-Board
+GPIO: D12, D11, D10, D9  
+[TODO] Upload Board design  
 
 1) Upload the sketch `Pushbutton.ino` to the board  
 2) `scp pushbutton.py root@mylinkit.local:~`  
@@ -57,11 +59,11 @@ Board
 
 Tweet a message when pushing a button
 
-GPIO: D9
-Board
+GPIO: D9  
+[TODO] Upload Board design  
 
-1) Configure Twitter app, follow [this instructions](https://github.com/alex5imon/linkit-examples/wiki/Tweet-from-LinkIt-Smart-Duo)
-2) Upload the sketch `Tweet.ino` to the board 
+1) Configure Twitter app, follow [this instructions](https://github.com/alex5imon/linkit-examples/wiki/Tweet-from-LinkIt-Smart-Duo)  
+2) Upload the sketch `Tweet.ino` to the board  
 3) Update the Twitter variables in `tweet.py` 
 4) `scp tweet.py root@mylinkit.local:~`  
 5) `python tweet.py`  
